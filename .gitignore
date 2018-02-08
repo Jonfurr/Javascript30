@@ -2,4 +2,7 @@
 node_modules/
 *.log
 haters/
+<<<<<<< HEAD
 .idea/
+=======
+>>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4

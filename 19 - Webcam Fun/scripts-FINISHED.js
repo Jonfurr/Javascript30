@@ -16,7 +16,11 @@ function getVideo() {
     });
 }
 
+<<<<<<< HEAD
 function paintToCanvas() {
+=======
+function paintToCanavas() {
+>>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
   const width = video.videoWidth;
   const height = video.videoHeight;
   canvas.width = width;
@@ -99,4 +103,8 @@ function greenScreen(pixels) {
 
 getVideo();
 
+<<<<<<< HEAD
 video.addEventListener('canplay', paintToCanvas);
+=======
+video.addEventListener('canplay', paintToCanavas);
+>>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4

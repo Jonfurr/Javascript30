@@ -76,7 +76,11 @@
   function bonk(e) {
     if(!e.isTrusted) return; // cheater!
     score++;
+<<<<<<< HEAD
     this.parentNode.classList.remove('up');
+=======
+    this.classList.remove('up');
+>>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
     scoreBoard.textContent = score;
   }
 
