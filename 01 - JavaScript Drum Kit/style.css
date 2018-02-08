@@ -1,34 +1,26 @@
 html {
   font-size: 10px;
-<<<<<<< HEAD
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
-=======
-  background:url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
->>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
+  background: url(https://orig00.deviantart.net/3b42/f/2011/217/8/6/desert_background_by_palpatine-d45iztn.jpg) bottom center;
   background-size: cover;
 }
-body,html {
+
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
 .keys {
-<<<<<<< HEAD
   display: flex;
   flex: 1;
   min-height: 100vh;
-=======
-  display:flex;
-  flex:1;
-  min-height:100vh;
->>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
   align-items: center;
   justify-content: center;
 }
 
 .key {
-<<<<<<< HEAD
+
   border: .4rem solid black;
   border-radius: .5rem;
   margin: 1rem;
@@ -38,7 +30,7 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 .5rem black;
 }
 
@@ -46,44 +38,30 @@ body,html {
   transform: scale(1.1);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
-=======
-  border:4px solid black;
-  border-radius:5px;
-  margin:1rem;
+
+  border: 4px solid black;
+  border-radius: 5px;
+  margin: 1rem;
   font-size: 1.5rem;
-  padding:1rem .5rem;
-  transition:all .07s;
-  width:100px;
+  padding: 1rem .5rem;
+  transition: all .07s;
+  width: 100px;
   text-align: center;
-  color:white;
-  background:rgba(0,0,0,0.4);
-  text-shadow:0 0 5px black;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 5px black;
 }
 
-.playing {
-  transform:scale(1.1);
-  border-color:#ffc600;
-  box-shadow: 0 0 10px #ffc600;
->>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
-}
 
-kbd {
-  display: block;
-<<<<<<< HEAD
-  font-size: 4rem;
-=======
-  font-size: 40px;
->>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
-}
 
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
-<<<<<<< HEAD
   letter-spacing: .1rem;
   color: #ffc600;
-=======
-  letter-spacing: 1px;
-  color:#ffc600;
->>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
 }
