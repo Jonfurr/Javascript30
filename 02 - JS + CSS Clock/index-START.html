@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
   <title>JS + CSS Clock</title>
 </head>
 <body>
 
-
+    
     <div class="clock">
       <div class="clock-face">
         <div class="hand hour-hand"></div>
@@ -14,11 +15,13 @@
         <div class="hand second-hand"></div>
       </div>
     </div>
-
+    <div class="digital-clock">
+      <span>12:00</span>
+    </div>
 
   <style>
     html {
-      background:#018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+      background:#018DED url(https://orig00.deviantart.net/3b42/f/2011/217/8/6/desert_background_by_palpatine-d45iztn.jpg);
       background-size:cover;
       font-family:'helvetica neue';
       text-align: center;
@@ -31,8 +34,22 @@
       flex:1;
       min-height: 100vh;
       align-items: center;
+      flex-direction: column;
     }
-
+    .digital-clock {
+      background-color: rgba(255,255,255,.5);
+      border: 3px solid #fff;
+      border-radius: 5px;
+      padding: 5rem;
+    }
+    .digital-clock span {
+      color: #fff;
+      font-size: 8rem;
+      font-family: 'Orbitron', sans-serif;
+      line-height: 1rem;
+      
+    }
+    
     .clock {
       width: 30rem;
       height: 30rem;
@@ -46,6 +63,7 @@
         inset 0 0 0 3px #EFEFEF,
         inset 0 0 10px black,
         0 0 10px rgba(0,0,0,0.2);
+        background-color: rgba(255,255,255,.5);
     }
 
     .clock-face {
@@ -73,7 +91,6 @@
   const secondHand = document.querySelector('.second-hand');
   const minuteHand = document.querySelector('.min-hand');
   const hourHand = document.querySelector('.hour-hand');
-
   function setDate(){
     const now = new Date();
     const seconds = now.getSeconds();
@@ -86,6 +103,8 @@
     secondHand.style.transform =`rotate(${secondsDegrees}deg)`;
     minuteHand.style.transform =`rotate(${minutesDegrees}deg)`;
     hourHand.style.transform =`rotate(${hoursDegrees}deg)`;
+
+    document.querySelector('.digital-clock span').textContent = hours+":"+minutes;
   }
 
   setInterval(setDate,1000);
