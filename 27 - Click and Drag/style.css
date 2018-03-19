@@ -23,6 +23,10 @@ body {
   padding: 100px;
   width:100%;
   border:1px solid white;
+<<<<<<< HEAD
+=======
+  box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.09);
+>>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -68,3 +72,12 @@ body {
 
 .item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
 .item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }
+<<<<<<< HEAD
+=======
+
+.wrap {
+  width: auto;
+  border:2px solid green;
+  height: 100%;
+}
+>>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
