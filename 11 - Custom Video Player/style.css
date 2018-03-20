@@ -7,10 +7,6 @@ html {
 }
 
 body {
-<<<<<<< HEAD
-  margin: 0;
-=======
->>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
   padding: 0;
   display:flex;
   background:#7A419B;
@@ -30,20 +26,6 @@ body {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-/* This css is only applied when fullscreen is active. */
-.player:fullscreen {
-  max-width: none;
-  width: 100%;
-}
-
-.player:-webkit-full-screen {
-  max-width: none;
-  width: 100%;
-}
-
-=======
->>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
 .player__video {
   width: 100%;
 }
@@ -107,7 +89,7 @@ body {
   width:50%;
   background:#ffc600;
   flex:0;
-  flex-basis:50%;
+  flex-basis:0%;
 }
 
 /* unholy css to style input type="range" */
@@ -131,10 +113,7 @@ input[type=range]::-webkit-slider-runnable-track {
   border: 0.2px solid rgba(1, 1, 1, 0);
 }
 input[type=range]::-webkit-slider-thumb {
-<<<<<<< HEAD
-=======
   box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(13, 13, 13, 0);
->>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
   height: 15px;
   width: 15px;
   border-radius: 50px;
@@ -144,11 +123,7 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: -3.5px;
   box-shadow:0 0 2px rgba(0,0,0,0.2);
 }
-<<<<<<< HEAD
-input[type=range]:focus::-webkit-slider-runnable-track {
-=======
 input[type=range]:focus::-wefbkit-slider-runnable-track {
->>>>>>> 5ecb5fc07764f755018cba4e5ac84b67cba51fd4
   background: #bada55;
 }
 input[type=range]::-moz-range-track {
